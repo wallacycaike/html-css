@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    color: purple;
+    
+}
+
+h2 {
+    color: purple; 
+    
+}
+
+p {
+    text-align: justify;
+    color: white;
+}

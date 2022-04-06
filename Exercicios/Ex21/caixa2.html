@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        header{
+            background-color: lightblue;
+            padding-top: 5px;
+        }
+
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        nav{
+            background-color: white;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style-type: none;
+        }
+
+        ul a:hover{
+            color: lightblue;
+            text-decoration: underline;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 16px;
+        }
+        
+        section{
+            background-color: white;
+            
+            padding: 10px 15px 10px 15px;
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            border-radius: 15px;
+        }
+
+        footer{
+            background-color: lightblue;
+            text-align: center;
+            font-weight: bold;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article > h1{
+            text-decoration: none;
+            text-align: left;
+        }
+
+        img{
+            max-height: 200px;
+        }
+
+        .sobre-filme{
+            display: flex;
+
+        }
+
+        span{
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+
+        aside{
+            background-color: gray;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.363);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem Vindo(a)</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Link</a></li>             
+                <li><a href="#">Link</a></li>             
+                <li><a href="#">Link</a></li>           
+                <li><a href="#">Link</a></li>             
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>Mate ou morra</h1>
+                <h2>Sinopse</h2>
+                <h3>Não recomendado para menores de 16 anos.</h3>
+                <p>Em Mate ou Morra, acompanhamos a história de Roy Pulver (Frank Grillo), um oficial da polícia aposentado que inexplicavelmente fica preso no tempo e é obrigado a vivenciar repetidamente o dia de sua morte. Enquanto tenta evitar ser morto, ele percebe que existe uma razão maior para que tudo isso aconteça.</p>
+            </article>
+            <aside>
+                <p class="sobre-filme"><img class="capa-filme" src="mate-ou-morra.jpg" alt="filme"> <span>16 de setembro de 2021 No cinema / 1h 41min / Ação , Suspense , Ficção científica <br> <br> Direção: Joe Carnahan <br> Roteiro: Joe Carnahan , Chris Borey <br> <br> Elenco: Frank Grillo , Mel Gibson , Naomi Watts <br>Título original: Boss Level</span></p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Wachiles.</p>
+    </footer>
+</body>
+</html>
