@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 95vw;
+            height: 450px;
+            border: 2px solid black;  
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Click em uma das opções abaixo e mude a cor do espaço em branco.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina-verde.html" target="frame">Click aqui para ficar verde</a></li>
+        <li><a href="paginas-extras/pagina-roxo.html" target="frame">Click aqui para ficar roxo</a></li>
+        <li><a href="paginas-extras/pagina-vermelho.html" target="frame">Click aqui para ficar vermelho</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quo aperiam fuga consequuntur aliquam perspiciatis reiciendis cum unde quam placeat optio non praesentium nesciunt rem? Consequuntur voluptatem ab ducimus debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis animi neque, deleniti repellat, commodi enim necessitatibus distinctio quam amet repudiandae possimus expedita velit hic quaerat provident, unde eaque blanditiis incidunt!</p>
+
+    <iframe name="frame" srcdoc="<h1>Escolha uma das opções a cima</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic recusandae officiis facilis nisi quia consectetur esse velit ipsa incidunt sint ab, earum sit consequuntur odio numquam magni! Alias, iusto pariatur?</p>" frameborder="0">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sunt reprehenderit tempora praesentium perferendis cum? Accusamus voluptates fugiat qui eligendi? Beatae eaque eum optio aliquid tempora culpa dolore animi consequuntur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia libero accusantium, illo nihil neque officia laboriosam molestias voluptates aliquam incidunt, quo ducimus dignissimos optio quasi cumque id alias enim dolorum.</p>
+</body>
+</html>
